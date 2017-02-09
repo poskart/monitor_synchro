@@ -18,3 +18,5 @@ Pushing and pulling from buffer must be kept in order, in which particular threa
 double producer was first in the critical section, other producer thread must not get into buffer and must wait for double producer to finish its work.
 Consumer threads must behaves like producer threads - only one consumer can pull from buffer, until it is fed up, and then the next in the queue can start consume.
 
+Author: Piotr Poskart, January 2017
+
